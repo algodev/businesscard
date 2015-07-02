@@ -49,7 +49,6 @@ class BusinessCardUI extends KeyAdapter implements ActionListener {
      */
     public void keyTyped(KeyEvent ke) {
 
-
         String title = mTitle.getText();
         String bottom = mBottomField.getText();
         only7bit.setText(" ");

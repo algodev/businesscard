@@ -113,6 +113,7 @@ class BusinessCardPrint implements Printable {
 
         PrinterJob job = PrinterJob.getPrinterJob();
         job.setPrintable(this);
+
         boolean ok = job.printDialog();
 
         if (ok) {

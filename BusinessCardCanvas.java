@@ -238,4 +238,5 @@ class BusinessCardCanvas extends JPanel {
         repaint();
 
     }
+
 }
